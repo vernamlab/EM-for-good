@@ -25,18 +25,18 @@ This repository contains Jupyter Notebook files designed to process traces for E
    - *Note*: This step is only necessary to capture new traces.
 
 2. **Clone the SCAPEgoat Library**:
-   - Clone the SCAPEgoat library into the ChipWhisperer directory.
+   - Clone the [SCAPEgoat library](https://github.com/vernamlab/SCApeGoat) into the ChipWhisperer directory.
    - Set the appropriate path for the imports in the Jupyter Notebook.
 
 3. **Download Traces**:
    - Download the required traces from the provided link [EMSCA Traces](https://app.box.com/v/EMSCA-for-good).
 
 4. **Organize Notebooks and Traces**:
-   - Place the EMSCA Jupyter Notebook within the downloaded traces directory, ensuring it is in the `CEMA` folder (acts as the parent directory).
-   - Ensure the "functions" Jupyter Notebook is located alongside the EMSCA notebook or set an appropriate path.
+   - Place the `CEMA_scapegoat` Jupyter Notebook within the downloaded traces directory, ensuring it is at the same level as the `CEMA` folder (acts as the parent directory).
+   - Ensure the `CEMA_functions` Jupyter Notebook is located alongside the `CEMA_scapegoat` notebook or set an appropriate path.
 
 5. **Verify Import Paths**:
-   - Confirm that all import paths are correct in the EMSCA notebook to ensure seamless execution.
+   - Confirm that all import paths are correct in the `CEMA_scapegoat` notebook to ensure seamless execution.
 
 ## Usage
 
@@ -44,7 +44,7 @@ The EMSCA process is divided into two main parts: capturing and post-processing.
 
 ### Capturing
 
-Capturing requires access to the following equipment:
+Capturing requires the following equipment:
 
 - CW Husky/Lite capture board
 - CW Lite target board
@@ -56,7 +56,7 @@ Each of these components has associated Python libraries for control. The SCAPEg
 **Steps**:
 
 1. **Initialization**:
-   - Use helper scripts to compile the necessary C code.
+   - Use `Setup_script` to compile the necessary C code.
    - Set up the scope and target using the `scope` class from the SCAPEgoat library.
 
 2. **Experiment Management**:
