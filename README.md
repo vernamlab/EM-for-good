@@ -36,7 +36,7 @@ This repository contains Jupyter Notebook files designed to process traces for E
    - Ensure the `CEMA_functions` Jupyter Notebook is located alongside the `CEMA_scapegoat` notebook or set an appropriate path.
 
 5. **Verify Import Paths**:
-   - Confirm that all import paths are correct in the `CEMA_scapegoat` notebook to ensure seamless execution.
+   - Confirm that all import paths are correct in the `CEMA_scapegoat` and `setup_script` notebook to ensure seamless execution.
 
 ## Usage
 
