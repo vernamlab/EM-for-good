@@ -30,6 +30,7 @@ This repository contains Jupyter Notebook files designed to process traces for E
 
 3. **Download Traces**:
    - Download the required traces from the provided link [EMSCA Traces](https://app.box.com/v/EMSCA-for-good).
+   - The dataset could be partially downloaded. To accomplish that safely, you should still maintain the folder structure for the individual experiments (CEMA->Experiments/metadata.json->(downloaded the need experiment)->(partially download the datasets too)).
 
 4. **Organize Notebooks and Traces**:
    - Place the `CEMA_scapegoat` Jupyter Notebook within the downloaded traces directory, ensuring it is at the same level as the `CEMA` folder (acts as the parent directory).
